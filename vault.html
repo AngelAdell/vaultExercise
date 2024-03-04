@@ -1,22 +1,29 @@
 <html>
   <head>
     <title>The Secret Code</title>
-    <script defer src="vault.js"></script>
+    <script defer src="combo.js"></script>
   </head>
   <body>
     <h1>The Secret Code</h1>
     <br>
-    <p>Welcome to the vault. Here, you will find the most valuable treasures in the world. But first, you must prove yourself worthy.</p>
-    <p>Your Mission put the correct code into each box. Each answer must be correct. Hit the Submit button </p>
-    <form id="codeForm">
-      <label for="code">Enter the code:</label>
-      <input type="text" id="code">
-      <br>
-      <button onclick="checkCode()">Submit</button>
-      <p id="result"></p>
-    <input type="text" id="code">
+    <p>Welcome to the vault. Here, you will find the most valuable treasures in the world. But first, you must prove yourself worthy.
+   nto each box. Each answer must be correct to proceed.</p>
     <br>
-    <button onclick="checkCode()">Submit</button>
+    <form id="codeForm">
+      <label for="code1">Enter the First Number </label>
+      <input type="text" id="code"  placeholder="Enter answer for Code 1">
+      <br>
+      <br>
+      <label for="code2">Enter the Second Number </label>
+      <input type="text" id="code2"  placeholder="Enter answer for Code 2">
+      <br>
+      <br>
+      <label for="code3">Enter the Third Number </label>
+      <input type="text" id="code3" placeholder="Enter answer for Code 3">
+      <br>
+      <br>
+    <button type="submit"> Submit</button>
     <p id="result"></p>
+    </form>
   </body>
 </html>
